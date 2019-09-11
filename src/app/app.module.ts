@@ -9,10 +9,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavComponent } from './nav/nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatGridListModule, MatCardModule, MatMenuModule } from '@angular/material';
-
+import { Angular2ImageGalleryModule } from 'angular2-image-gallery'
 
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ImageGridComponent } from './image-grid/image-grid.component';
+import { QuotesComponent } from './quotes/quotes.component';
+import { AboutComponent } from './about/about.component';
+import { FourohfourComponent } from './fourohfour/fourohfour.component';
 
 
 @NgModule({
@@ -30,12 +33,16 @@ import { ImageGridComponent } from './image-grid/image-grid.component';
 		MatGridListModule,
 		MatCardModule,
 		MatMenuModule,
+		Angular2ImageGalleryModule
 	],
 	declarations: [
 		AppComponent,
 		NavComponent,
 		DashboardComponent,
 		ImageGridComponent,
+		QuotesComponent,
+		AboutComponent,
+		FourohfourComponent,
 	],
 	exports: [],
 	providers: [],

@@ -1,0 +1,11 @@
+<div class="content">
+  <h1>
+    Teetums say the darndest things.
+  </h1>
+  <mat-list role="list">
+    <mat-list-item role="listitem" *ngFor="let quote of quotes">
+      <p matLine>"{{quote}}"</p>
+      <h4 matLine>-Teetum</h4>
+    </mat-list-item>
+  </mat-list>
+</div>
