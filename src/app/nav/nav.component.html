@@ -9,10 +9,13 @@
 <mat-sidenav-container class="sidenav-container">
   <mat-sidenav #drawer class="sidenav" [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'" [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="(isHandset$ | async) === false">
     <mat-nav-list>
+      <a mat-list-item [routerLink]="['/blog']">Blog!</a>
+
       <a mat-list-item [routerLink]="['/pics']">Pics!</a>
       <a mat-list-item [routerLink]="['/quotes']">Quotes!</a>
-      <!-- <a mat-list-item [routerLink]="['/']">#sponcon!</a> -->
       <a mat-list-item [routerLink]="['/what-were-we-thinking']">Why??</a>
+      <div fxFlex></div>
+      <a href="" target="_blank" class="hashtag">#{{hashtag}}</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
