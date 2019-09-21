@@ -10,6 +10,7 @@ import { NavComponent } from './nav/nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatGridListModule, MatCardModule, MatMenuModule } from '@angular/material';
 import { Angular2ImageGalleryModule } from 'angular2-image-gallery';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ImageGridComponent } from './image-grid/image-grid.component';
@@ -26,6 +27,7 @@ import { BlogComponent } from './blog/blog.component';
 		ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
 		BrowserAnimationsModule,
 		LayoutModule,
+		FlexLayoutModule,
 		MatToolbarModule,
 		MatButtonModule,
 		MatSidenavModule,
