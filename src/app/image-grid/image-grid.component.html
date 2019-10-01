@@ -1,11 +1,21 @@
 <div class="content">
   <h1>Do it for the 'gram!</h1>
   <p>Look. We all know why we're here. Whatever you do, be sure to tag <a href="https://www.instagram.com/tatumerinmurray/" target="_blank">@tatumerinmurray</a>!</p>
-  <mat-grid-list cols="4">
-    <mat-grid-tile *ngFor="let item of images" [colspan]="1" [rowspan]="1">
-      <mat-card>
-        <img mat-card-image src="{{item}}" alt="It's a Teetum">
-      </mat-card>
+  <mat-grid-list cols="1" rowHeight="3:4" gutterSize="2">
+    <mat-grid-tile *ngFor="let image of images" [colspan]="1" [rowspan]="1">
+      <div class="image-card">
+        <img mat-card-image src="{{image}}" alt="It's a Teetum" class="image">
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile *ngFor="let video of videos" [colspan]="1" [rowspan]="1">
+      <div>
+        <video class="video-container" controls plays-inline mat-card-image>
+          <source src="{{video}}" type="video/mp4" />
+          <source src="{{video}}" type="video/webm" />
+          <source src="{{video}}" type="video/ogg" />
+          <p>Your browser does not support the video tag.</p>
+        </video>
+      </div>
     </mat-grid-tile>
   </mat-grid-list>
 </div>

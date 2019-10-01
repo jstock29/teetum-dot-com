@@ -1,6 +1,6 @@
 <div class="app-container">
   <mat-toolbar color="primary" class="app-navbar">
-    <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()" *ngIf="isHandset$ | async">
+    <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle(); openNav()">
       <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
     </button>
     <span>
@@ -9,13 +9,13 @@
   </mat-toolbar>
   <mat-sidenav-container class="sidenav-container">
     <mat-sidenav #drawer class="sidenav" [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'" [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="(isHandset$ | async) === false">
-      <mat-nav-list>
+      <mat-nav-list fxLayout="column" style="height:100%">
         <a mat-list-item [routerLink]="['/blog']" (click)="drawer.close()">Blog!</a>
         <a mat-list-item [routerLink]="['/pics']" (click)="drawer.close()">Pics!</a>
         <a mat-list-item [routerLink]="['/quotes']" (click)="drawer.close()">Quotes!</a>
         <a mat-list-item [routerLink]="['/what-were-we-thinking']" (click)="drawer.close()">Why??</a>
-        <div></div>
-        <a href="" target="_blank" class="hashtag">#{{hashtag}}</a>
+        <div fxFlex></div>
+        <a [attr.href]="'https://twitter.com/hashtag/' + hashtag" target="_blank" class="hashtag">#{{hashtag}}</a>
       </mat-nav-list>
     </mat-sidenav>
     <mat-sidenav-content>

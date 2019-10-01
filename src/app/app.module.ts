@@ -8,7 +8,7 @@ import { environment } from '../environments/environment';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavComponent } from './nav/nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
-import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatGridListModule, MatCardModule, MatMenuModule } from '@angular/material';
+import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatGridListModule, MatCardModule, MatMenuModule, MatDividerModule } from '@angular/material';
 import { Angular2ImageGalleryModule } from 'angular2-image-gallery';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
@@ -30,6 +30,7 @@ import { BlogComponent } from './blog/blog.component';
 		FlexLayoutModule,
 		MatToolbarModule,
 		MatButtonModule,
+		MatDividerModule,
 		MatSidenavModule,
 		MatIconModule,
 		MatListModule,

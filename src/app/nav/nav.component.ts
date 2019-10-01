@@ -32,12 +32,19 @@ export class NavComponent {
 			'deh',
 			'fitspriation',
 			'spoopy',
+			'veggies',
 			'beefchili',
 			'sponsored',
 			'ad',
+			'glamneglect',
 			'thepacedotco',
 			'spon'
 		]
+		this.i = this.randomInt(this.possible_hashtags.length)
+		this.hashtag = this.possible_hashtags[this.i]
+	}
+
+	openNav() {
 		this.i = this.randomInt(this.possible_hashtags.length)
 		this.hashtag = this.possible_hashtags[this.i]
 	}
