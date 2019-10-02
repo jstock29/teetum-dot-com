@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ImageGridComponent implements OnInit {
 	images: string[];
 	videos: string[];
+	breakpoint: number;
 
 	constructor() {
 		this.images = [
@@ -20,17 +21,20 @@ export class ImageGridComponent implements OnInit {
 		]
 
 		this.videos = [
-			'./assets/images/recorded-4199671992387.mp4',
 			'./assets/images/IMG_0424.mov',
 			'./assets/images/FullSizeRender.mov',
 			'./assets/images/FullSizeRender 2.mov',
 			'./assets/images/FullSizeRender 3.mov',
-
+			'./assets/images/recorded-4199671992387.mp4',
 		]
 	}
 
+	onResize(event) {
+		this.breakpoint = (event.target.innerWidth <= 400) ? 1 : 3;
+	}
 
 	ngOnInit() {
+		this.breakpoint = (window.innerWidth <= 400) ? 1 : 3;
 
 	}
 
