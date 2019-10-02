@@ -1,7 +1,7 @@
 <div class="content">
   <h1>Do it for the 'gram!</h1>
   <p>Look. We all know why we're here. Whatever you do, be sure to tag <a href="https://www.instagram.com/tatumerinmurray/" target="_blank">@tatumerinmurray</a>!</p>
-  <mat-grid-list [cols]="breakpoint" rowHeight="2:3" gutterSize="2" (window:resize)="onResize($event)">
+  <mat-grid-list [cols]="breakpoint" rowHeight="9:16" gutterSize="2" (window:resize)="onResize($event)">
     <mat-grid-tile *ngFor="let image of images" [colspan]="1" [rowspan]="1">
       <div class="image-card">
         <img mat-card-image src="{{image}}" alt="It's a Teetum" class="image">
