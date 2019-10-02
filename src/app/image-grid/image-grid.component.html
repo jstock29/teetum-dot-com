@@ -7,15 +7,37 @@
         <img mat-card-image src="{{image}}" alt="It's a Teetum" class="image">
       </div>
     </mat-grid-tile>
+    <!-- <mat-grid-tile *ngFor="let video of videos" [colspan]="1" [rowspan]="1"> -->
+    <!-- <div>
+      <video class="video-container" controls plays-inline mat-card-image>
+        <source src="{{video}}" type="video/mp4" />
+        <source src="{{video}}" type="video/webm" />
+        <source src="{{video}}" type="video/ogg" />
+        <p>Your browser does not support this video. Jesus ass.</p>
+      </video>
+    </div> -->
+    <!-- </mat-grid-tile> -->
+  </mat-grid-list>
+  <mat-grid-list cols="1" gutterSize="2">
     <mat-grid-tile *ngFor="let video of videos" [colspan]="1" [rowspan]="1">
       <div>
         <video class="video-container" controls plays-inline mat-card-image>
           <source src="{{video}}" type="video/mp4" />
           <source src="{{video}}" type="video/webm" />
           <source src="{{video}}" type="video/ogg" />
-          <p>Your browser does not support the video tag.</p>
+          <p>Your browser does not support this video. Jesus ass.</p>
         </video>
       </div>
     </mat-grid-tile>
   </mat-grid-list>
+  <!-- <div *ngFor="let video of videos">
+    <div style="margin:0 auto;">
+      <video class="video-container" controls plays-inline mat-card-image>
+        <source src="{{video}}" type="video/mp4" />
+        <source src="{{video}}" type="video/webm" />
+        <source src="{{video}}" type="video/ogg" />
+        <p>Your browser does not support this video. Jesus ass.</p>
+      </video>
+    </div>
+  </div> -->
 </div>

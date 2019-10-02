@@ -1,0 +1,22 @@
+.date-tag {
+  height: 76px;
+  width: 76px;
+  border-radius: 38px;
+  background-color: #000;
+  flex-wrap: wrap;
+  margin: 12px;
+  text-align: center;
+
+  h5 {
+    color: #FFF;
+  }
+}
+
+.blog-header {
+  align-items: center;
+}
+
+.reduced-margin {
+  margin-top: 0;
+  margin-bottom: 0;
+}
