@@ -6,6 +6,10 @@
     <span>
       <h1>Teetum!</h1>
     </span>
+    <div fxFlex></div>
+    <div class="logo">
+      <!-- <img src="./assets/icons/ms-icon-70x70.png" class="logo"> -->
+    </div>
   </mat-toolbar>
   <mat-sidenav-container class="sidenav-container">
     <mat-sidenav #drawer class="sidenav" [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'" [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="(isHandset$ | async) === false">

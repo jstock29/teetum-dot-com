@@ -17,7 +17,7 @@ export class QuotesComponent implements OnInit {
 			"Tap my privilege. That’ll be my slogan. Like how people can take some of my privilege.",
 			"¿Privilege?",
 			"He’s as gay as the boy baby skunk kissing the other baby skunk. Who’s also a boy.",
-			"What if an alligator falls in love with a squirrel and they have a baby",
+			"What if an alligator falls in love with a squirrel and they have a baby?",
 			"[REDACTED]. What were we thinking??",
 
 		]
