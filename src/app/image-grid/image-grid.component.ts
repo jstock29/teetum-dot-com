@@ -30,11 +30,11 @@ export class ImageGridComponent implements OnInit {
 	}
 
 	onResize(event) {
-		this.breakpoint = (event.target.innerWidth <= 400) ? 1 : 3;
+		this.breakpoint = (event.target.innerWidth <= 420) ? 1 : 3;
 	}
 
 	ngOnInit() {
-		this.breakpoint = (window.innerWidth <= 400) ? 1 : 3;
+		this.breakpoint = (window.innerWidth <= 420) ? 1 : 3;
 
 	}
 
