@@ -25,7 +25,7 @@ export class ImageGridComponent implements OnInit {
 			'./assets/images/FullSizeRender.mov',
 			'./assets/images/FullSizeRender 2.mov',
 			'./assets/images/FullSizeRender 3.mov',
-			'./assets/images/recorded-4199671992387.mp4',
+			'./assets/images/recorded-4199671992387.mpeg',
 		]
 	}
 
