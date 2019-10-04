@@ -16,6 +16,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatDividerModule } from '@angular/material/divider';
 import { Angular2ImageGalleryModule } from 'angular2-image-gallery';
 import { FlexLayoutModule } from '@angular/flex-layout';
@@ -44,6 +45,7 @@ import { BlogComponent } from './blog/blog.component';
 		MatListModule,
 		MatGridListModule,
 		MatCardModule,
+		MatSnackBarModule,
 		MatMenuModule,
 		Angular2ImageGalleryModule
 	],
