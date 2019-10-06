@@ -18,10 +18,8 @@ import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatDividerModule } from '@angular/material/divider';
-import { Angular2ImageGalleryModule } from 'angular2-image-gallery';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
-import { DashboardComponent } from './dashboard/dashboard.component';
 import { ImageGridComponent } from './image-grid/image-grid.component';
 import { QuotesComponent } from './quotes/quotes.component';
 import { AboutComponent } from './about/about.component';
@@ -46,13 +44,11 @@ import { BlogComponent } from './blog/blog.component';
 		MatGridListModule,
 		MatCardModule,
 		MatSnackBarModule,
-		MatMenuModule,
-		Angular2ImageGalleryModule
+		MatMenuModule
 	],
 	declarations: [
 		AppComponent,
 		NavComponent,
-		DashboardComponent,
 		ImageGridComponent,
 		QuotesComponent,
 		AboutComponent,
