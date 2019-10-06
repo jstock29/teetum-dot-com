@@ -9,10 +9,9 @@
 }
 
 .secrets {
-  // transform: rotate(45deg);
-  -webkit-animation: spin 4s linear infinite;
-  -moz-animation: spin 4s linear infinite;
-  animation: spin 4s linear infinite;
+  -webkit-animation: spin 2s linear infinite;
+  -moz-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
 }
 @-moz-keyframes spin {
   100% {

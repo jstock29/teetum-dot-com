@@ -18,19 +18,19 @@ export class AboutComponent implements OnInit {
 		this.j = 0;
 		this.messages = [
 			{
-				message: 'Hai, Teetum, no touching thanksomuch.',
-				action: 'Oops, sry Teets!'
+				message: 'Hai, Teetum, excuse you!',
+				action: 'Oops, sorry Teets!'
 			},
 			{
-				message: 'No, seriously are you DEAF??',
-				action: 'WHAT???'
+				message: 'Are you DEAF??',
+				action: 'No.'
 			},
 			{
 				message: "Have you ever watched the light leave someone's eyes?",
 				action: 'Ummmmm...'
 			},
 			{
-				message: "There's a town in upstate New York that cowers when they hear my name.",
+				message: "There's a town in upstate New York that cowers in fear when they hear my name.",
 				action: 'Are you okay?'
 			},
 			{

@@ -17,6 +17,7 @@ export class QuotesComponent implements OnInit {
 			"We can't leave until we pack up the Riviera!",
 			"Tap my privilege. That’ll be my slogan. Like how people can take some of my privilege.",
 			"¿Privilege?",
+			"I'm the sluttiest girl in this Walmart.",
 			"He’s as gay as the boy baby skunk kissing the other baby skunk. Who’s also a boy.",
 			"What if an alligator falls in love with a squirrel and they have a baby?",
 			"[REDACTED]. What were we thinking??",
