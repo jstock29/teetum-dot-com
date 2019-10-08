@@ -12,14 +12,13 @@ export class ImageGridComponent implements OnInit {
 
 	constructor() {
 		this.images = [
-			'./assets/images/IMG_0687.PNG',
-			'./assets/images/IMG_0692.PNG',
-			'./assets/images/IMG_0694.PNG',
-			'./assets/images/IMG_0695.PNG',
-			// './assets/images/IMG_0036.jpg',
-			'./assets/images/IMG_0037.jpg',
-			'./assets/images/0E9C8CEF-F833-4EF1-B0F0-45A1A2407444.JPG',
-			'./assets/images/IMG_2311.jpg',
+			'./assets/images/IMG_0687.webp',
+			'./assets/images/IMG_0692.webp',
+			'./assets/images/IMG_0694.webp',
+			'./assets/images/IMG_0695.webp',
+			'./assets/images/IMG_0037.webp',
+			'./assets/images/0E9C8CEF-F833-4EF1-B0F0-45A1A2407444.webp',
+			'./assets/images/IMG_2311.webp',
 		]
 
 		this.videos = [
