@@ -1,7 +1,7 @@
 {
-  "name": "teetum-dot-com",
-  "short_name": "teetum-dot-com",
-  "theme_color": "#1976d2",
+  "name": "Teetum!",
+  "short_name": "Teetum!",
+  "theme_color": "#e91e63",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "/",
