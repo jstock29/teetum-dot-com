@@ -9,13 +9,14 @@
     </mat-grid-tile>
   </mat-grid-list>
   <!-- <h1>Videos!</h1> -->
-  <mat-grid-list [cols]="breakpoint" rowHeight="1:2" gutterSize="2" (window:resize)="onResize($event)">
+  <mat-grid-list [cols]="breakpoint" rowHeight="9:19.5" gutterSize="2" (window:resize)="onResize($event)">
     <mat-grid-tile *ngFor="let video of videos" [colspan]="1" [rowspan]="1">
       <div>
-        <video class="video-container" controls plays-inline mat-card-image>
+        <video preload="auto" class="video-container" controls="true" playsinline mat-card-image>
           <source src="{{video}}" type="video/mp4" />
           <source src="{{video}}" type="video/webm" />
           <source src="{{video}}" type="video/ogg" />
+          <source src="{{video}}" type="video/mov" />
           <p>Your browser does not support this video. Jesus ass.</p>
         </video>
       </div>
